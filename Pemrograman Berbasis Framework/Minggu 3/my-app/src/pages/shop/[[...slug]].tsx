@@ -1,18 +1,17 @@
 import { useRouter } from "next/router";
 
-const halamanToko = () => {
-  //const Router = useRouter();
-  //console.log(Router);
+export default function Shop() {
   const { query } = useRouter();
+  const slug = query.slug as string[] | undefined;
 
   return (
     <div>
-        <h1>Halaman Toko</h1>
-       <p> Toko :  {`${query.slug && query.slug[0]+ "-" + query.slug[1]}`}</p>{/* <p> Toko : {Array.isArray(query.slug) ? query.slug.join("-") : query.slug}</p>  */}     
-    </div>    
-  )
+      <h1>Halaman Shop</h1>
+
+      <p>
+        Kategori: {slug ? slug[0] : "Semua Kategori"}
+      </p>
+
+    </div>
+  );
 }
-
-export default halamanToko;
-
-//tidak ada error yang dialami
