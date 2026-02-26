@@ -1,17 +1,24 @@
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
-const produk = () => {
-    const [isLogin, setIsLogin] = useState(false);
-    const { push } = useRouter();
-    useEffect(() => {
-        if (!isLogin) {
-            push("/auth/login");
-        }
-    }, [isLogin]);
-    return (
-        <div>Produk User Page</div>
-    )
-}
+const Produk = () => {
+  const router = useRouter();
 
-export default produk;
+  // simulasi status login
+  const [isLogin, setIsLogin] = useState(false);
+
+  useEffect(() => {
+    if (!isLogin) {
+      router.push("/auth/login");
+    }
+  }, [isLogin, router]);
+
+  return (
+    <div>
+      <h1>Halaman Produk</h1>
+      <p>Produk hanya bisa diakses user yang sudah login</p>
+    </div>
+  );
+};
+
+export default Produk;
