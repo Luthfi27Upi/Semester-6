@@ -14,3 +14,5 @@ const halamanToko = () => {
 }
 
 export default halamanToko;
+
+//tidak ada error yang dialami
