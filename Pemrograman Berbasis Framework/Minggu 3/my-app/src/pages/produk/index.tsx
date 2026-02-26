@@ -22,3 +22,4 @@ const Produk = () => {
 };
 
 export default Produk;
+
