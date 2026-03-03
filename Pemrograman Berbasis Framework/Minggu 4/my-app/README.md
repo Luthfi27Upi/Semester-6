@@ -9,7 +9,7 @@ Kelas : TI 3D
 # 1. Global CSS
 a. File Global
 
-src/styles/global.css
+`src/styles/global.css`
 
 ```
 * {
@@ -52,7 +52,7 @@ a {
 
 b. Import Global CSS
 
-src/styles/_app.tsx
+`src/styles/_app.tsx`
 
 ```
 import '@/styles/globals.css'
@@ -75,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 a. Struktur Komponen Navbar
 
-src/components/layout/navbar/
+`src/components/layout/navbar/`
 
 ```
 Membuat navbar.module.css
@@ -114,4 +114,31 @@ const Navbar = () => {
 
 export default Navbar
 ```
-![Deskripsi Gambar](../assets/1.png)
+![Hasil](../assets/1.png)
+
+# 3. Styling untuk Pages (CSS Modules)
+
+a. Contoh login page
+
+`src/pages/auth/`
+
+Modifikasi login.module.css
+
+```
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+```
+
+Modifikasi login.tsx
+
+```
+import styles from "./login.module.css";
+<div className={styles.login}>
+```
+
+![Hasil](../assets/2.png)
