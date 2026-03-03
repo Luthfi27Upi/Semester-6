@@ -142,3 +142,16 @@ import styles from "./login.module.css";
 ```
 
 ![Hasil](../assets/2.png)
+
+# 4. Conditional Rendering Navbar (Tanpa Navbar di Login)
+
+ Modifikasi index.tsx pada folder appshell
+
+ ```
+import { useRouter } from "next/router";
+const disableNavbar = ["/auth/login", "/auth/register"];
+const {pathname} = useRouter();
+{!disableNavbar.includes(router.pathname) && <Navbar />}
+```
+
+![Hasil](../assets/3.png)
