@@ -1,1 +1,117 @@
- ## Luthfi Triaswangga
+# Jobsheet 5 - Styling
+
+Luthfi Triaswangga
+
+NIM : 2341720208
+
+Kelas : TI 3D 
+
+# 1. Global CSS
+a. File Global
+
+src/styles/global.css
+
+```
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
+b. Import Global CSS
+
+src/styles/_app.tsx
+
+```
+import '@/styles/globals.css'
+import type { AppProps } from 'next/app'
+import AppShell from '@/components/layouts/AppShell'
+import Navbar from '@/components/layouts/navbar'
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <AppShell>
+        <Component {...pageProps} />
+      </AppShell>
+    </>
+  )
+}
+```
+
+# 2. CSS Module (Local Scope)
+
+a. Struktur Komponen Navbar
+
+src/components/layout/navbar/
+
+```
+Membuat navbar.module.css
+```
+
+b. File CSS Module
+
+Modifikasi navbar.module.css
+
+```
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+}
+```
+
+c. Pemanggilan di Komponen
+
+Modifikasi kode pada index.tsx pada folder navbar
+
+```
+import styles from "./navbar.module.css";
+
+const Navbar = () => {
+  return (
+    <div className={styles.navbar}>
+        <h1>Navbar Component</h1>
+    </div>
+  )
+}
+
+export default Navbar
+```
+![Deskripsi Gambar](../assets/1.png)
