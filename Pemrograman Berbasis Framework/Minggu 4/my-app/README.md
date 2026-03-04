@@ -277,3 +277,61 @@ Modifikasi login.module.scss pada `views/auth/login`
 ```
 
 ![Hasil](../assets/5.png)
+
+# 9. Tailwind CSS
+
+a. Install
+
+```
+PS D:\Kuliah\Belajar\Semester 6\Pemrograman Berbasis Framework\Minggu 4\my-app> npm install -D tailwindcss postcss autoprefixer
+
+added 5 packages, changed 1 package, and audited 355 packages in 6s
+
+145 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+Downgrade versi tailwindcss
+
+```
+npm install tailwindcss@3 postcss autoprefixer
+
+added 35 packages, changed 1 package, and audited 390 packages in 17s
+
+152 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+```
+PS D:\Kuliah\Belajar\Semester 6\Pemrograman Berbasis Framework\Minggu 4\my-app> npx tailwindcss init -p
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js  
+```
+
+b. Konfigurasi `tailwind.config.js`
+
+```
+"./src/**/*.{js,jsx,ts,tsx,mdx}",
+"./pages/**/*.{js,jsx,ts,tsx,mdx}",
+"./components/**/*.{js,jsx,ts,tsx,mdx}",
+"./src/**/*.{js,jsx,ts,tsx,mdx}",
+```
+
+c. Import di `global.css`
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+![Hasil](../assets/5.png)
+
+# Tugas Praktikum
+
+## Tugas 1
