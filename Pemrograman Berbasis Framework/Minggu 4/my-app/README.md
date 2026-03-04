@@ -341,3 +341,24 @@ c. Import di `global.css`
 ## Tugas 2
 
 ![Hasil](../assets/8.png)
+
+## Tugas 3
+
+![Hasil](../assets/8.png)
+
+# Pertanyaan Refleksi
+
+1. Kapan sebaiknya menggunakan CSS Module dibanding Global CSS?
+
+
+
+2. Apa kelemahan inline styling?
+
+
+
+3. Mengapa SCSS cocok untuk project skala besar?
+
+
+
+4. Apa keunggulan Tailwind dibanding CSS tradisional?
+
