@@ -158,7 +158,7 @@ const {pathname} = useRouter();
 
 5. Refactoring Struktur Project (Best Practice)
 
-page/auth/login/index.tsx
+`pages/auth/login/index.tsx`
 
 ```
 import TampilanLogin from "../views/auth/login";
@@ -206,3 +206,10 @@ export default TampilanLogin;
 
 6. Inline Stylinh (CSS in JS)
 
+Modifikasi index.tsx pada `views/auth/login`
+
+```
+<h1 style={{ color: "red",borderRadius: "10px",padding: "10px",}}>Belum Punya Akun?</h1>
+```
+
+![Hasil](../assets/4.png)

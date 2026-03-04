@@ -16,9 +16,9 @@ const TampilanLogin = () => {
       <button onClick={handleLogin}>Login</button>
 
       <br />
-
+      <h1 style={{ color: "red",borderRadius: "10px",padding: "10px",}}>Belum Punya Akun?</h1>
       <Link href="/auth/register">
-        Belum punya akun? Daftar di sini
+        Daftar di sini
       </Link>
     </div>
   );
