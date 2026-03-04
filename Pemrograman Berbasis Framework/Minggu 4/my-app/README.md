@@ -156,7 +156,7 @@ const {pathname} = useRouter();
 
 ![Hasil](../assets/3.png)
 
-5. Refactoring Struktur Project (Best Practice)
+# 5. Refactoring Struktur Project (Best Practice)
 
 `pages/auth/login/index.tsx`
 
@@ -204,7 +204,7 @@ export default TampilanLogin;
 
 ![Hasil](../assets/3.png)
 
-6. Inline Stylinh (CSS in JS)
+# 6. Inline Stylinh (CSS in JS)
 
 Modifikasi index.tsx pada `views/auth/login`
 
@@ -213,3 +213,19 @@ Modifikasi index.tsx pada `views/auth/login`
 ```
 
 ![Hasil](../assets/4.png)
+
+# 7. Kombinasi Global CSS + CSS Module
+
+Modifikasi global.css
+
+```
+.big {
+  font-size: 1.5rem;
+}
+```
+
+Modifikasi index.tsx pada `components/layout/navbar`
+
+```
+<div className="big">Navbar Component</div>
+```
