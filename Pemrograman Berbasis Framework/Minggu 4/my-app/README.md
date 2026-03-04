@@ -340,3 +340,4 @@ c. Import di `global.css`
 
 ## Tugas 2
 
+![Hasil](../assets/8.png)

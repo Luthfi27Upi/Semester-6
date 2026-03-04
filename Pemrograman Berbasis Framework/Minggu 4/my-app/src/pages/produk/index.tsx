@@ -1,7 +1,5 @@
-import ProdukView from "../views/produk";
+import ProdukView from "../views/produk/index";
 
-const ProdukPage = () => {
+export default function ProdukPage() {
   return <ProdukView />;
-};
-
-export default ProdukPage;
+}
