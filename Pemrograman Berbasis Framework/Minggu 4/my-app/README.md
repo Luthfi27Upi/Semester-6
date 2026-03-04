@@ -155,3 +155,54 @@ const {pathname} = useRouter();
 ```
 
 ![Hasil](../assets/3.png)
+
+5. Refactoring Struktur Project (Best Practice)
+
+page/auth/login/index.tsx
+
+```
+import TampilanLogin from "../views/auth/login";
+
+const halamanLogin = () => {
+  return <TampilanLogin />;
+}
+
+export default halamanLogin;
+```
+
+pages/views/auth/login/indes.tsx
+
+```
+import Link from "next/link";
+import { useRouter } from "next/router";
+import styles from "./login.module.css";
+
+const TampilanLogin = () => {
+  const { push } = useRouter();
+
+  const handleLogin = () => {
+    push("/produk"); // imperatif navigation
+  };
+
+  return (
+    <div className={styles.login}>
+      <h1>Halaman Login</h1>
+
+      <button onClick={handleLogin}>Login</button>
+
+      <br />
+
+      <Link href="/auth/register">
+        Belum punya akun? Daftar di sini
+      </Link>
+    </div>
+  );
+};
+
+export default TampilanLogin;
+```
+
+![Hasil](../assets/3.png)
+
+6. Inline Stylinh (CSS in JS)
+
