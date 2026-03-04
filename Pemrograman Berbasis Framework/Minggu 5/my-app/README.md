@@ -38,5 +38,8 @@ npm notice
     <title>Praktikun Next.js Pages Router</title>
 </Head>
 ```
+![Hasil](../assets/1.png)
 
 ## 4. 
+
+![Hasil](../assets/2.png)
