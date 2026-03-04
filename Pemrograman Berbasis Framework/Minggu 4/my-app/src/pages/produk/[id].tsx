@@ -1,15 +1,11 @@
-    import {Router, useRouter} from 'next/router';
+import { useRouter } from "next/router";
+import DetailView from "../views/produk/detail";
 
-    const HalamanProduk = () => {
-    // const Router = useRouter();
-    // console.log(Router);
-    const { query } = useRouter();
-        return (
-            <div>
-                <h1>Halaman Produk</h1>
-                <p>Produk : {query.id}</p>
-            </div>
-        )
-    }
+const ProdukDetailPage = () => {
+  const { query } = useRouter();
+  const { id } = query;
 
-    export default HalamanProduk;
+  return <DetailView id={id} />;
+};
+
+export default ProdukDetailPage;

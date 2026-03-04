@@ -330,8 +330,13 @@ c. Import di `global.css`
 @tailwind utilities;
 ```
 
-![Hasil](../assets/5.png)
+![Hasil](../assets/6.png)
 
 # Tugas Praktikum
 
 ## Tugas 1
+
+![Hasil](../assets/7.png)
+
+## Tugas 2
+
