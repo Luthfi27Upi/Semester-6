@@ -229,3 +229,51 @@ Modifikasi index.tsx pada `components/layout/navbar`
 ```
 <div className="big">Navbar Component</div>
 ```
+
+# 8. SCSS (SASS)
+
+a. Install SASS
+
+```
+PS D:\Kuliah\Belajar\Semester 6\Pemrograman Berbasis Framework\Minggu 4\my-app> npm i --save-dev sass
+
+added 8 packages, and audited 350 packages in 8s
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+b. Global Variable
+
+Modifikasi `colors.scss`
+
+```
+$schema:(
+    color-primary: #3498db,
+    color-secondary: #2ecc71,
+    color-accent: #e74c3c,
+    color-background: #ecf0f1,
+    color-text: #2c3e50,
+)
+```
+
+c. Gunakan di Module
+
+Modifikasi login.module.scss pada `views/auth/login`
+
+```
+@import "@/styles/colors.scss";
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: map-get($map: $schema, $key:color-secondary);
+}
+```
+
+![Hasil](../assets/5.png)

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "./login.module.css";
+// import styles from "./login.module.css";
+import styles from "./login.module.scss";
 
 const TampilanLogin = () => {
   const { push } = useRouter();
@@ -16,7 +17,7 @@ const TampilanLogin = () => {
       <button onClick={handleLogin}>Login</button>
 
       <br />
-      <h1 style={{ color: "red",borderRadius: "10px",padding: "10px",}}>Belum Punya Akun?</h1>
+      <h1 style={{ color: "red",border: "1px solid red", borderRadius: "5px",padding: "5px",}}>Belum Punya Akun?</h1>
       <Link href="/auth/register">
         Daftar di sini
       </Link>
@@ -24,4 +25,4 @@ const TampilanLogin = () => {
   );
 };
 
-export default TampilanLogin;
+export default TampilanLogin
