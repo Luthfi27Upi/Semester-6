@@ -57,3 +57,7 @@ npm notice
 ## Tugas 1 - Judul Halaman
 
 ![Hasil](../assets/6.png)
+
+## Tugas 2 - Disable Navbar
+
+![Hasil](../assets/7.png)

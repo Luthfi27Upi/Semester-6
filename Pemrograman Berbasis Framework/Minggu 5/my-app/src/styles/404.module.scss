@@ -1,24 +1,32 @@
 .error {
   width: 100vw;
   height: 100vh;
+  background-color: #f8fafc;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  gap: 5px;
 }
 
 .error__image {
-  width: 300px;
-  margin-bottom: 20px;
+  width: 320px;
+  margin-bottom: 25px;
 }
 
 .error__title {
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e293b;
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .error__description {
   font-size: 18px;
-  color: #666;
+  color: #64748b;
+  max-width: 500px;
 }
+
