@@ -15,3 +15,10 @@ npm run dev
 ## Langkah 2 - Membuat API Produk
 
 ![Hasil](../assets/1.png)
+
+## Langkah 3 - Fetch Data API Di FrontEnd
+
+![Hasil](../assets/2.png)
+
+## Langkah 5 - Setup Firebase
+
