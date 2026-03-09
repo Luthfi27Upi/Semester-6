@@ -30,3 +30,17 @@
   max-width: 500px;
 }
 
+.error__button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.error__button:hover {
+  background-color: #1d4ed8;
+}

@@ -61,3 +61,7 @@ npm notice
 ## Tugas 2 - Disable Navbar
 
 ![Hasil](../assets/7.png)
+
+## Tugas 3 - Link to Home
+
+![Hasil](../assets/8.png)

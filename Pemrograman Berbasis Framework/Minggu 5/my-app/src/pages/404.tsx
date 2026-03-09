@@ -22,8 +22,12 @@ const Custom404 = () => {
 
         <p className={styles.error__description}>
           Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.
-          Silakan kembali ke halaman utama.
         </p>
+
+        <Link href="/" className={styles.error__button}>
+          Kembali ke Home
+        </Link>
+
       </div>
     </>
   );
