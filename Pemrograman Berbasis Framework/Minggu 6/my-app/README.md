@@ -23,3 +23,17 @@ npm run dev
 ## Langkah 5 - Setup Firebase
 
 ![Hasil](../assets/2.png)
+
+## Langkah 6 - Instal Firebase
+
+```
+npm install firebase
+
+added 79 packages, and audited 421 packages in 2m
+
+140 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
