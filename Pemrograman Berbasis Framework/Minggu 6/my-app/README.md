@@ -56,4 +56,22 @@ FIREBASE_APP_ID=1:804690804466:web:24245cfadb7b503c06da6b
 export default app;
 ```
 
-## Langkah 9 - 
+## Langkah 9 - Ambil Data dari Firestore
+
+```
+import { getFirestore, collection, getDocs, doc} from 'firebase/firestore';
+import app from './firebase';
+
+const db = getFirestore(app);
+
+export async function retrieveProducts(collectionName: string) {
+    const snapshot = await getDocs(collection(db, collectionName));
+    const data = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+    }));
+    return data;
+}
+```
+
+## Langkah 10 - 
