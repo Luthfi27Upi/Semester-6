@@ -50,3 +50,6 @@ npm notice
 
 ![Hasil](../assets/4.png)
 
+## 6. Menampilkan Gambar dari Folder Public
+
+![Hasil](../assets/5.png)
