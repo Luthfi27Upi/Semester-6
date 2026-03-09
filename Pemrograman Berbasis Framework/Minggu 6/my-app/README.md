@@ -49,3 +49,11 @@ FIREBASE_STORAGE_BUCKET=framework-next-7b567.firebasestorage.app,
 FIREBASE_MESSAGING_SENDER_ID=804690804466, 
 FIREBASE_APP_ID=1:804690804466:web:24245cfadb7b503c06da6b
 ```
+
+## Langkah 8 - Konfigurasi Firebase
+
+```
+export default app;
+```
+
+## Langkah 9 - 
