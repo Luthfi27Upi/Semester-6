@@ -51,3 +51,6 @@ Static Site Generation adalah metode rendering di mana halaman web dibuat secara
 
 ![Hasil](../assets/4.png)
 
+## Tugas 3 - Refactor
+
+![Hasil](../assets/5.png)
