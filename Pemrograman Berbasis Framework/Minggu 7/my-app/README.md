@@ -19,3 +19,18 @@ Kelas : TI 3D
 ## Langkah 3 - Implementasi Skeleton Loading
 
 ![Hasil](../assets/4.png)
+
+## Langkah 5 - Implementasi SWR
+
+```
+npm install swr
+
+added 3 packages, and audited 432 packages in 7s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+## Tugas 1 
