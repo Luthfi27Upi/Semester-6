@@ -22,3 +22,4 @@ npm run dev
 
 ## Langkah 5 - Setup Firebase
 
+![Hasil](../assets/2.png)
