@@ -1,12 +1,24 @@
 .error {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 
-    &__image {
-        width: 300px;
-    }
+.error__image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.error__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.error__description {
+  font-size: 18px;
+  color: #666;
 }

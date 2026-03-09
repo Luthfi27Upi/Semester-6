@@ -53,3 +53,7 @@ npm notice
 ## 6. Menampilkan Gambar dari Folder Public
 
 ![Hasil](../assets/5.png)
+
+## Tugas 1 - Judul Halaman
+
+![Hasil](../assets/6.png)
