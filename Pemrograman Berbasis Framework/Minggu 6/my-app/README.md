@@ -85,3 +85,9 @@ export async function retrieveProducts(collectionName: string) {
 ![Hasil](../assets/6.png)
 
 ![Hasil](../assets/7.png)
+
+## Tugas 2 - Menambah Field Kategori
+
+![Hasil](../assets/8.png)
+
+![Hasil](../assets/9.png)
