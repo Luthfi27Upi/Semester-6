@@ -91,3 +91,6 @@ export async function retrieveProducts(collectionName: string) {
 ![Hasil](../assets/8.png)
 
 ![Hasil](../assets/9.png)
+
+## Tugas 3 - Menambah Tombol Refresh Data
+![Hasil](../assets/10.png)
