@@ -22,7 +22,7 @@ npm run dev
 
 ## Langkah 5 - Setup Firebase
 
-![Hasil](../assets/2.png)
+![Hasil](../assets/3.png)
 
 ## Langkah 6 - Instal Firebase
 
@@ -74,4 +74,8 @@ export async function retrieveProducts(collectionName: string) {
 }
 ```
 
-## Langkah 10 - 
+## Langkah 10 - API Mengambil Data Firebase
+
+![Hasil](../assets/4.png)
+
+![Hasil](../assets/5.png)
