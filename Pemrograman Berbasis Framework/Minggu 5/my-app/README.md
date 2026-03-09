@@ -40,6 +40,13 @@ npm notice
 ```
 ![Hasil](../assets/1.png)
 
-## 4. 
+## 4. Membuat Custom Error Page 404
 
 ![Hasil](../assets/2.png)
+
+## 5. Styling Halaman 404
+
+![Hasil](../assets/3.png)
+
+![Hasil](../assets/4.png)
+
