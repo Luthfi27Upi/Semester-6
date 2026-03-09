@@ -46,3 +46,8 @@ Server Side Rendering adalah metode rendering di mana proses pembuatan halaman H
 3. Static Site Generation (SSG)
 
 Static Site Generation adalah metode rendering di mana halaman web dibuat secara statis pada saat proses build aplikasi, bukan saat pengguna mengakses halaman. Data yang diperlukan sudah diambil sebelumnya dan hasilnya disimpan sebagai file HTML statis yang siap dikirim ke pengguna. Karena halaman sudah dibuat sebelumnya, SSG memiliki performa yang sangat cepat dan efisien ketika diakses. Metode ini sangat cocok digunakan untuk website yang kontennya jarang berubah, seperti blog, dokumentasi, atau halaman profil perusahaan.
+
+## Tugas 2 - Animasi Skeleton Loading
+
+![Hasil](../assets/4.png)
+
