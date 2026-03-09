@@ -12,3 +12,8 @@ Kelas : TI 3D
 
 ## Langkah 2 - Implementasi CSR dengan useEffect
 
+![Hasil](../assets/2.png)
+
+![Hasil](../assets/3.png)
+
+## Langkah 3 - Implementasi Skeleton Loading
