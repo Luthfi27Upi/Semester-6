@@ -17,3 +17,5 @@ Kelas : TI 3D
 ![Hasil](../assets/3.png)
 
 ## Langkah 3 - Implementasi Skeleton Loading
+
+![Hasil](../assets/4.png)
