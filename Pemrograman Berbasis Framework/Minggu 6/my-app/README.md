@@ -79,3 +79,9 @@ export async function retrieveProducts(collectionName: string) {
 ![Hasil](../assets/4.png)
 
 ![Hasil](../assets/5.png)
+
+## Tugas 1 - Menambah Database
+
+![Hasil](../assets/6.png)
+
+![Hasil](../assets/7.png)
