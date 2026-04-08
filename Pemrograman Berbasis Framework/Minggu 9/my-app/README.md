@@ -87,3 +87,28 @@ Route (pages)
 
 ![Hasil](../assets/4.png)
 
+## Tugas Praktikum 
+
+Saya sudah menerapkan di praktikum
+
+## Studi Analisis
+
+1. Mengapa SSG tidak menampilkan data terbaru?
+
+Pada metode SSG, proses pengambilan data (fetching) dari API atau database hanya dilakukan satu kali saja, yaitu pada saat aplikasi di-build (npm run build). Setelah proses build selesai, halaman tersebut diubah menjadi file HTML statis yang tidak lagi berkomunikasi dengan database setiap kali diakses pengguna. Oleh karena itu, perubahan apa pun yang terjadi pada server atau database tidak akan tercermin di halaman web sampai developer mematikan server dan melakukan proses build ulang.
+
+2. Mengapa SSG lebih cepat?
+
+SSG memiliki performa yang sangat cepat karena browser pengguna langsung menerima dokumen HTML yang sudah matang tanpa perlu menunggu server melakukan komputasi atau mengambil data. Halaman statis ini juga memiliki ukuran yang ringan dan dapat dengan mudah disimpan serta didistribusikan melalui jaringan CDN (Content Delivery Network). Akibatnya, waktu respons server menjadi sangat singkat dan halaman web dapat dimuat secara instan di layar pengguna.
+
+3. Kapan SSG tidak cocok digunakan?
+
+Metode SSG sangat tidak disarankan untuk aplikasi yang membutuhkan pembaruan data secara real-time atau memiliki frekuensi perubahan data yang sangat tinggi (seperti aplikasi chat atau grafik saham). SSG juga tidak cocok untuk halaman yang kontennya sangat personal dan berbeda-beda untuk setiap pengguna yang login (misalnya halaman profil atau dasbor pengaturan akun). Jika dipaksakan pada skenario tersebut, waktu untuk melakukan build aplikasi akan menjadi sangat lama dan data yang disajikan akan sering kali usang.
+
+4. Mengapa e-commerce tidak cocok menggunakan SSG murni?
+
+Platform e-commerce tidak cocok menggunakan SSG murni karena elemen-elemen krusial seperti ketersediaan stok barang dan fluktuasi harga harus selalu akurat setiap detiknya. Jika menggunakan SSG murni, pengguna berisiko melihat produk masih berstatus "Tersedia" padahal stok di database sudah habis, yang dapat memicu masalah transaksi. Oleh karena itu, e-commerce modern biasanya menggunakan pendekatan campuran, seperti memakai SSG untuk halaman profil toko, namun menggunakan SSR atau CSR untuk detail keranjang belanja dan ketersediaan stok.
+
+5. Apa perbedaan build mode dan development mode?
+
+Development mode (npm run dev) dirancang khusus untuk mempermudah developer saat menulis kode, sehingga Next.js sengaja mengabaikan aturan statis dan merender ulang halaman (serta memanggil API) setiap kali layar di-refresh agar perubahan kode langsung terlihat. Sebaliknya, Build/Production mode (npm run build dilanjut npm run start) adalah lingkungan asli aplikasi saat diunggah ke internet yang sangat difokuskan pada optimasi performa. Pada mode produksi inilah arsitektur SSG benar-benar menunjukkan perilaku aslinya, karena halaman web dikunci menjadi HTML statis dan tidak lagi melakukan pemanggilan data ke API.
