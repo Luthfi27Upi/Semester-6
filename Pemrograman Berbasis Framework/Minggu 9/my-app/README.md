@@ -40,4 +40,37 @@ export async function getStaticProps() {
 
 ## Langkah 3 – Build Production Mode
 
+```
+npm run build 
+
+Route (pages)
+┌ ○ /
+├   /_app
+├ ○ /404
+├ ○ /about
+├ ƒ /api/hello
+├ ƒ /api/produk
+├ ○ /auth/login
+├ ○ /auth/register
+├ ○ /blog
+├ ○ /blog/[slug]
+├ ○ /category/[...slug]
+├ ○ /produk (346 ms)
+├ ○ /produk/[id]
+├ ○ /produk/[id] copy
+├ ○ /produk/index copy
+├ ƒ /produk/server
+├ ● /produk/static (537 ms)
+├ ○ /profile
+├ ○ /profile/edit
+├ ○ /setting/app (311 ms)
+├ ○ /shop/[[...slug]]
+├ ○ /user
+└ ○ /user/password
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+```
+
 ![Hasil](../assets/1.png)

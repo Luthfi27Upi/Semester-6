@@ -1,4 +1,4 @@
-import styles from "@/styles/produk/product.module.scss";
+import styles from "@/pages/produk/product.module.scss";
 
 type ProductType = {
   id: string;
@@ -17,7 +17,6 @@ const TampilanProduk = ({ products }: { products: ProductType[] }) => {
         {products.length > 0 ? (
           products.map((products: ProductType) => (
             <div key={products.id} className={styles.produk__content__item}>
-              
               <img
                 src={products.image}
                 alt={products.name}
@@ -35,7 +34,6 @@ const TampilanProduk = ({ products }: { products: ProductType[] }) => {
               <p className={styles.produk__content__item__price}>
                 Rp {products.price.toLocaleString("id-ID")}
               </p>
-
             </div>
           ))
         ) : (
