@@ -38,4 +38,6 @@ export async function getStaticProps() {
 
 ```
 
+## Langkah 3 – Build Production Mode
+
 ![Hasil](../assets/1.png)

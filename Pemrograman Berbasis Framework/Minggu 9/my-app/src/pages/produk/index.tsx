@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import TampilanProduk from "../views/product";
+import TampilanProduk from "@/views/product";
 import useSWR from "swr";
-import fetcher from "../utlis/swr/fetcher";
+import fetcher from "@/utlis/swr/fetcher";
 
 const kategori = () => {
   const [products, setProducts] = useState([]);
