@@ -74,3 +74,16 @@ Route (pages)
 ```
 
 ![Hasil](../assets/1.png)
+
+## Langkah 4 – Pengujian Perubahan Data
+
+### Uji Coba 1 - Tambah Data di Database
+
+![Hasil](../assets/2.png)
+
+![Hasil](../assets/3.png)
+
+### Uji Coba 2 - Build Ulang
+
+![Hasil](../assets/4.png)
+
