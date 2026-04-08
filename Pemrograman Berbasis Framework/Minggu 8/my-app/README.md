@@ -14,3 +14,10 @@ Kelas : TI 3D
 
 ![Hasil](../assets/2.png)
 
+## Langkah 3 – Refactor Type ( produk type )
+
+## Langkah 4 – Uji Perbedaan SSR vs CSR
+
+![Hasil](../assets/3.png)
+
+![Hasil](../assets/4.png)
