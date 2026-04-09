@@ -27,3 +27,17 @@ Kelas : TI 3D
 ## Langkah 4 – Implementasi Static Site Generation (Dynamic SSG)
 
 ![Hasil](../assets/7.png)
+
+## Pengujian
+
+### Uji 1 - CSR
+
+![Hasil](../assets/8.png)
+
+### Uji 2 - SSR
+
+![Hasil](../assets/9.png)
+
+### Uji 3 - SSG
+
+![Hasil](../assets/10.png)

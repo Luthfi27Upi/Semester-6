@@ -8,7 +8,7 @@ import produk from '../produk';
 type Data = {
     status: boolean;
     status_code: number;
-    data: any;
+    data: any;  
  }
 
 export default async function handler(
