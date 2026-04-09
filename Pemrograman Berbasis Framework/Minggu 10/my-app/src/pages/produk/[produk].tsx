@@ -26,7 +26,8 @@ export async function getServerSideProps({params}: {params: {produk: string} }) 
     const response = await res.json(); 
     return {
         props: {
-            product: response.data,
+            // TAMBAHKAN || null DI SINI
+            product: response.data || null, 
         },
     };
 }
