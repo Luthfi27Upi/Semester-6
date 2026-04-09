@@ -38,4 +38,35 @@ export async function getStaticProps() {
 
 ```
 
+## Langkah 2 – Pengujian ISR
+
+Route (pages)
+┌ ○ /
+├   /_app
+├ ○ /404
+├ ○ /about
+├ ƒ /api/[[...produk]]
+├ ƒ /api/hello
+├ ○ /auth/login
+├ ○ /auth/register
+├ ○ /blog
+├ ○ /blog/[slug]
+├ ○ /category/[...slug]
+├ ○ /produk
+├ ƒ /produk/[produk]
+├ ƒ /produk/server
+├ ● /produk/static (1689 ms)
+├ ○ /profile
+├ ○ /profile/edit
+├ ○ /setting/app
+├ ○ /shop/[[...slug]]
+├ ○ /user
+└ ○ /user/password
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
+## Langkah 1 – Buat API Revalidate
+
 ![Hasil](../assets/1.png)
