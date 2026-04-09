@@ -19,3 +19,7 @@ Kelas : TI 3D
 ![Hasil](../assets/4.png)
 
 ![Hasil](../assets/5.png)
+
+## Langkah 3 – Implementasi SSR
+
+![Hasil](../assets/6.png)
