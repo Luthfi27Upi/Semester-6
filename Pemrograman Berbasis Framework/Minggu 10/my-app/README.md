@@ -10,4 +10,12 @@ Kelas : TI 3D
 
 ![Hasil](../assets/1.png)
 
-![Hasil](../assets/1.png)
+![Hasil](../assets/2.png)
+
+## Langkah 2 – Implementasi CSR (Client Rendering)
+
+![Hasil](../assets/3.png)
+
+![Hasil](../assets/4.png)
+
+![Hasil](../assets/5.png)
