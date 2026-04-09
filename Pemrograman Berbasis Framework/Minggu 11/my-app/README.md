@@ -94,3 +94,8 @@ http://localhost:3000/api/revalidate?data=produk&token=123456
 ```
 
 ![Hasil](../assets/4.png)
+
+## Tugas Praktikum 
+
+Sudah saya terapkan pada Langkah langkah praktikum
+
