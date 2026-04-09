@@ -80,3 +80,17 @@ Route (pages)
 ```
 REVALIDATE_TOKEN=12345678
 ```
+
+## Pengujian Manual Revalidation
+
+```
+http://localhost:3000/api/revalidate?data=produk&token=12345678
+```
+
+![Hasil](../assets/3.png)
+
+```
+http://localhost:3000/api/revalidate?data=produk&token=123456
+```
+
+![Hasil](../assets/4.png)
