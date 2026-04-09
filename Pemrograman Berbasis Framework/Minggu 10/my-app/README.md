@@ -23,3 +23,7 @@ Kelas : TI 3D
 ## Langkah 3 – Implementasi SSR
 
 ![Hasil](../assets/6.png)
+
+## Langkah 4 – Implementasi Static Site Generation (Dynamic SSG)
+
+![Hasil](../assets/7.png)
