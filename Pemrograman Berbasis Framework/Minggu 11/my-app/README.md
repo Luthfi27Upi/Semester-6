@@ -70,3 +70,13 @@ Route (pages)
 ## Langkah 1 – Buat API Revalidate
 
 ![Hasil](../assets/1.png)
+
+## Langkah 2 - Tambahkan Parameter Data
+
+![Hasil](../assets/2.png)
+
+## Langkah 3 – Tambahkan Token Security
+
+```
+REVALIDATE_TOKEN=12345678
+```
